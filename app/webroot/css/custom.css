@@ -1,0 +1,8 @@
+thead {
+    background-color: #003d4c;
+    color: white;
+}
+
+thead td {
+    text-align: center !important;
+}

@@ -13,7 +13,7 @@ class StatisticsController extends AppController {
             'UtmData' => array(
                 'fields' => array('UtmData.source', 'UtmData.medium', 'UtmData.campaign', 'UtmData.content', 'UtmData.term'),
                 'order'  => array('UtmData.source' => 'ASC', 'UtmData.medium' => 'ASC', 'UtmData.campaign' => 'ASC', 'UtmData.content' => 'ASC', 'UtmData.term' => 'ASC'),
-                'limit'  => 5
+                'limit'  => 20
             )
         );
 

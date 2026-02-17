@@ -348,3 +348,63 @@ Stack Trace:
 #8 D:\xampp71\htdocs\utm-data\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
 #9 D:\xampp71\htdocs\utm-data\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2026-02-17 16:14:39 Error: [NotFoundException] Not Found
+Request URL: /cake2-test/
+Stack Trace:
+#0 D:\xampp71\htdocs\utm-data\lib\Cake\View\View.php(971): include()
+#1 D:\xampp71\htdocs\utm-data\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp71\\htdo...', Array)
+#2 D:\xampp71\htdocs\utm-data\lib\Cake\View\View.php(473): View->_render('D:\\xampp71\\htdo...')
+#3 D:\xampp71\htdocs\utm-data\lib\Cake\Controller\Controller.php(968): View->render('home', NULL)
+#4 D:\xampp71\htdocs\utm-data\app\Controller\PagesController.php(71): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 D:\xampp71\htdocs\utm-data\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 D:\xampp71\htdocs\utm-data\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 D:\xampp71\htdocs\utm-data\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 D:\xampp71\htdocs\cake2-test\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2026-02-17 16:14:49 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /cake2-test/home
+Stack Trace:
+#0 D:\xampp71\htdocs\cake2-test\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2026-02-17 16:14:59 Error: [NotFoundException] Not Found
+Request URL: /cake2-test/pages/home
+Stack Trace:
+#0 D:\xampp71\htdocs\utm-data\lib\Cake\View\View.php(971): include()
+#1 D:\xampp71\htdocs\utm-data\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp71\\htdo...', Array)
+#2 D:\xampp71\htdocs\utm-data\lib\Cake\View\View.php(473): View->_render('D:\\xampp71\\htdo...')
+#3 D:\xampp71\htdocs\utm-data\lib\Cake\Controller\Controller.php(968): View->render('home', NULL)
+#4 D:\xampp71\htdocs\utm-data\app\Controller\PagesController.php(71): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 D:\xampp71\htdocs\utm-data\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 D:\xampp71\htdocs\utm-data\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 D:\xampp71\htdocs\utm-data\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 D:\xampp71\htdocs\cake2-test\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2026-02-17 16:15:02 Error: [NotFoundException] Not Found
+Request URL: /cake2-test/
+Stack Trace:
+#0 D:\xampp71\htdocs\utm-data\lib\Cake\View\View.php(971): include()
+#1 D:\xampp71\htdocs\utm-data\lib\Cake\View\View.php(933): View->_evaluate('D:\\xampp71\\htdo...', Array)
+#2 D:\xampp71\htdocs\utm-data\lib\Cake\View\View.php(473): View->_render('D:\\xampp71\\htdo...')
+#3 D:\xampp71\htdocs\utm-data\lib\Cake\Controller\Controller.php(968): View->render('home', NULL)
+#4 D:\xampp71\htdocs\utm-data\app\Controller\PagesController.php(71): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 D:\xampp71\htdocs\utm-data\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 D:\xampp71\htdocs\utm-data\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 D:\xampp71\htdocs\utm-data\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 D:\xampp71\htdocs\cake2-test\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2026-02-17 16:15:07 Error: [MissingControllerException] Controller class UtmController could not be found.
+Exception Attributes: array (
+  'class' => 'UtmController',
+  'plugin' => NULL,
+)
+Request URL: /cake2-test/utm/list
+Stack Trace:
+#0 D:\xampp71\htdocs\cake2-test\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
